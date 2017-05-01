@@ -1,0 +1,81 @@
+*{ padding: 0; margin: 0; }
+#world-container{
+    width: 1024px;
+    height:640px;
+    position: relative;
+    text-align: center;
+}
+#world{
+    background-image: url("../assets/world_bg.jpg");
+}
+#modal{
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0,0,0,0.7);
+    position: absolute;
+    top: 0px;
+}
+#inp-name{
+    height: 25px;
+}
+label{
+    font-family: "impact";
+    font-size: 30px;
+    color: #FFF;
+    display: block;
+    margin-bottom: 10px;
+}
+button{
+    width: 70px;
+    height: 30px;
+}
+.ui{
+    position: absolute;
+    width: 500px;
+    height: 160px;
+    top:50%;
+    left: 50%;
+    margin-top: -80px;
+    margin-left: -250px;
+    outline: 1px solid #F00;
+    padding-top: 30px;
+    background-color: #111;
+    display: none;
+}
+#ui-rank{
+    height: 300px;
+    margin-top: -150px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+#list-rank{
+    list-style: none;
+}
+.lbl-time{
+    font-size: 40px;
+    color: #FFDD00;
+    font-style: italic;
+}
+.rank-no{
+    display: inline-block;
+    color: #FFF;
+    font-size: 16px;
+    font-weight: bold;
+    width: 40px;
+    text-align: left;
+}
+.rank-name{
+    display: inline-block;
+    color: #FFF;
+    font-size: 16px;
+    font-weight: bold;
+    width: 350px;
+    text-align: left;
+}
+.rank-record{
+    display: inline-block;
+    color: #FFF;
+    font-size: 14px;
+    width: 110px;
+    text-align: right;
+}

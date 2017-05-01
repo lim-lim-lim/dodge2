@@ -1,0 +1,42 @@
+<!doctype html>
+<html>
+	<title>dodge</title>
+	<head>
+		<link rel="stylesheet" href="css/common.css">
+		<script type="text/javascript" src="js/game.js"></script>
+		<script type="text/javascript" src="lib/jquery-2.0.3.min.js"></script>
+	</head>
+	<body>
+		<div id="world-container">
+			<canvas id="world" width="1024" height="640"></canvas>
+			<div id="modal"></div>
+
+			<div id="ui-pause" class="ui">
+				<label>Pause...</label>
+				<button id="btn-resume">resume</button>
+			</div>
+
+			<div id="ui-end" class="ui">
+				<label>Game Over</label>
+				<label class="lbl-time"></label>
+				<button class="btn-retry">retry</button>
+			</div>
+
+			<div id="ui-submit" class="ui">
+				<label class="lbl-time"></label>
+				<label>Enter your name</label>
+				<input id="txi-name" type="text" maxlength="10"></input>
+				<button id="btn-submit">submit</button>
+			</div>
+
+			<div id="ui-rank" class="ui">
+				<label>Ranking</label>
+				<ul id="list-rank"></ul>
+				<button id="btn-start">start</button>
+			</div>
+		</div>
+		<script>
+			Game.init();
+		</script>
+	</body>				
+</html>
