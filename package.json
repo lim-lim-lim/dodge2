@@ -1,0 +1,26 @@
+{
+  "name": "dodge2",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "directories": {
+    "lib": "lib"
+  },
+  "scripts": {
+    "start": "http-server",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lim-lim-lim/dodge2.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/lim-lim-lim/dodge2/issues"
+  },
+  "homepage": "https://github.com/lim-lim-lim/dodge2#readme",
+  "dependencies": {
+    "http-server": "^0.11.1"
+  }
+}

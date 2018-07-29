@@ -1,9 +1,18 @@
 *{ padding: 0; margin: 0; }
+
+html{
+    background-color: #000;
+}
+
 #world-container{
     width: 1024px;
     height:640px;
-    position: relative;
+    position: absolute;
     text-align: center;
+    left: 50%;
+    top: 50%;
+    margin-left: -512px;
+    margin-top: -320px;
 }
 #world{
     background-image: url("../assets/world_bg.jpg");
