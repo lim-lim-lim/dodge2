@@ -60,8 +60,9 @@ var Game = ( function () {
 	};
 
 	Game.Net = {
+		base: 'http://limlimlim.com/game/dodge2/api/',
 		getYourRank:function( record, handle ){
-			$.ajax({ url: "getRanking.php",
+			$.ajax({ url: this.base + "getRanking.php",
 					type: "POST",
 					cache:false,
 					timeout : 30000,
@@ -71,7 +72,7 @@ var Game = ( function () {
 				});
 		},
 		getRanker10:function( handle ){
-			$.ajax({ url: "getRanker10.php",
+			$.ajax({ url: this.base + "getRanker10.php",
 					type: "POST",
 					cache:false,
 					timeout : 30000,
@@ -81,7 +82,7 @@ var Game = ( function () {
 		},
 		submitYourRecord:function( name, record, handle ){
 			$.ajax({
-					url: "submitRecord.php",
+					url: this.base + "submitRecord.php",
 					type: "POST",
 					cache:false,
 					timeout : 30000,
