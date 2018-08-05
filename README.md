@@ -1,6 +1,7 @@
 # DODGE 
 
-Live Demo : http://www.limlimlim.com/game/dodge2/
+- Live Demo : http://www.limlimlim.com/game/dodge2/
+- #Javascript #Canvas #jQuery #HTML #CSS
 
 ## 로컬실행
 ```
